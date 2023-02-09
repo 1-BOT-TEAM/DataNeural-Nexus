@@ -1,0 +1,26 @@
+{
+  "name": "dataneural-nexus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "node src/server/index.js",
+    "start:client": "node src/client/index.js"
+  },
+  "keywords": [],
+  "author": "@1-BOT-TEAM",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@prisma/client": "^4.10.0",
+    "socket.io": "^4.6.0",
+    "socket.io-client": "^4.6.0",
+    "uuid": "^9.0.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.7",
+    "utf-8-validate": "^6.0.2"
+  },
+  "devDependencies": {
+    "prisma": "^4.10.0"
+  }
+}
